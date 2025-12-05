@@ -7,6 +7,7 @@ This project implements a simple ETL pipeline using functionality provided by Da
 ```
 end-to-end-etl-pipeline/
 ├── README.md
+├── images/
 ├── presentation/
 │   └── slides.pdf
 ├── demo/
