@@ -224,3 +224,8 @@ desktop.ini
 # Example:
 # data/raw/
 # models/trained/
+
+.databricks/
+.env
+__pycache__/
+*.log
