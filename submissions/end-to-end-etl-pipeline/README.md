@@ -1,11 +1,11 @@
-# [Project Title] - End-to-end ETL pipeline
+# End-to-end ETL pipeline
 
-> Brief description of your project
+This project implements a simple ETL pipeline using functionality provided by Databricks. The primary module used is the Pipeline, which enables step-by-step operations on a Delta Lake table by executing code according to an automatically generated dependency graph. This approach allows for easier modification and scaling of existing systems compared to traditional methods, such as creating sequences of jobs and manually managing dependencies and execution order.
 
 ## 📁 Project Structure
 
 ```
-topic-name-XXX/
+end-to-end-etl-pipeline/
 ├── README.md
 ├── presentation/
 │   └── slides.pdf
@@ -22,49 +22,9 @@ topic-name-XXX/
     └── report.md
 ```
 
-## What to Include
-
-#### ✅ DO Include:
-- Project documentation and README
-- Source code for your demo
-- Presentation slides (PDF preferred)
-- Sample/synthetic data (small files only)
-- Setup and installation instructions
-- `.env.example` files with placeholder values
-- Requirements/dependencies files
-- Documentation and reports
-
-#### ❌ DO NOT Include:
-- API keys or credentials
-- Personal contact information
-- Real datasets with personal information
-- Database dumps
-- Large video files (use links instead)
-- Binary files over 10MB
-- `.env` files with actual secrets
-- Passwords or tokens
-
-
-## ✅ Submission Checklist
-
-Before submitting, ensure you've completed:
-
-- [ ] README is complete and accurate
-- [ ] All code is commented and readable
-- [ ] Demo runs successfully on a fresh setup
-- [ ] No sensitive data (API keys, passwords) committed
-- [ ] Presentation slides included
-- [ ] References and sources cited
-- [ ] Installation instructions is added 
-
-
-## 🚀 Getting Started
-
-Provide a quick overview of how to get your project up and running including data sources, dependencies, and configuration needed to reproduce your results.
-
 ## 📧 Contact
-
-- **Project Repository**: [Link to this repo]
-- **Presentation Date**: [Date]
-- **Course**: [Course Name/Code]
+- **Author**: Artur Pelcharskyi
+- **Project Repository**: https://github.com/PelArtur/BigData-SelfPickedAssignment
+- **Presentation Date**: 03-12-2025
+- **Course**: Big data processing technologies
 
