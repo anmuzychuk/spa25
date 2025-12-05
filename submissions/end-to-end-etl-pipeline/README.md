@@ -11,13 +11,30 @@ end-to-end-etl-pipeline/
 │   └── slides.pdf
 ├── demo/
 │   ├── src/
-│   │   ├── main.py
-│   │   ├── config.py
-│   │   └── utils.py
+│   │   ├── explorations/
+│   │   │   ├── load_analysis.py
+│   │   ├── extraction/
+│   │   │   ├── extract_others.py
+│   │   │   ├── extract_population.py
+│   │   │   └── extract_projects.py
+│   │   ├── transformations/
+│   │   │   ├── concat_rural_electricity.py
+│   │   │   ├── merge_population_gdp.py
+│   │   │   ├── merge_projects_population_gdp.py
+│   │   │   ├── transform_gdp.py
+│   │   │   ├── transform_population.py
+│   │   │   └── transform_projects.py
+│   │   ├── transformations/
+│   │   │   ├── constants.py
+│   │   │   └── utils.py
 │   ├── data/
-│   │   └── sample_data.csv
-│   ├── requirements.txt
-│   └── README.md
+│   │   |── electricity_access_percent.csv
+│   │   |── gdp_data.csv
+│   │   |── mystery.csv
+│   │   |── population_data.csv
+│   │   |── population_data.json
+│   │   |── projects_data.csv
+│   │   └── rural_population_percent.csv
 └── documentation/
     └── report.md
 ```
