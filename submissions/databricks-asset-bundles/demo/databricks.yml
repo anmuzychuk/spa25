@@ -1,0 +1,20 @@
+bundle:
+  name: my_student_sql_bundle
+
+resources:
+  jobs:
+    sql_executin_job:
+      name: "Run SQL on Serverless WH (Free Edition)"
+      tasks:
+        - task_key: execute_sql_file
+          sql_task:
+            file:
+              path: src/my_query.sql 
+            warehouse_id: "WAREHOUSE_ID" 
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: "DATABRICKS_HOST"
