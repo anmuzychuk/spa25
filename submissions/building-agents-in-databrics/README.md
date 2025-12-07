@@ -5,7 +5,7 @@
 ## 📁 Project Structure
 
 ```
-mosaic-agents/
+building-agents-in-databrics/
 ├── README.md           # Project documentation
 ├── AGENT.py           # ReAct Agent implementation with custom tools
 ├── RAG.py             # Basic RAG pipeline implementation
